@@ -8,36 +8,37 @@ const About = () => {
       <Title>About Me</Title>
       <div className="row">
         <div className="column">
-          <strong>Hi, I am Rudy Lam</strong>
+          <strong>Hi, I am Rudy</strong>
           <p>
-            Creative Frontend Developer and Talented Software Engineer with 7+
-            years of experience in designing and developing successful user
-            interfaces.
+            I am a highly skilled and innovative Web3 Full Stack Developer with
+            over 4 years of experience in building decentralized applications
+            (dApps) and blockchain solutions. 
             <br /> <br />
-            Proficient in Frontend development with various technologies and
-            skilled at learning and implementing new technologies.
-            <br />
-            <br />I am a committed coder with excellent communication skills and
-            a wealth of knowledge and experience, making me a valuable
-            colleague.
+            I excel in leveraging cutting-edge web technologies and blockchain protocols to create seamless
+            and secure user experiences. 
+            My expertise spans both front-end and back-end development, with a deep understanding of smart contracts,
+            distributed ledgers, and decentralized finance (DeFi). 
+            <br /> <br />
+            I am committed to staying at the forefront of emerging technologies,
+            continuously learning, and contributing to the evolution of the Web3
+            ecosystem.
           </p>
         </div>
       </div>
-      <Title>Highlights of Qualifications</Title>
+      <Title>Interests & Hobbies</Title>
       <div className="row">
-        <div className="column">
           <ul>
-            <li>Sound knowledge of MVC frameworks</li>
-            <li>Deep understanding of JavaScriptOOP & FP</li>
-            <li>Hungry and eager to learn</li>
-            <li>Ability to learn rapidly</li>
-            <li>Follow emerge technologies</li>
-            <li>
-              Excellent coding and code review experience. Clear
-              structure,standardized naming, strong logic, low code redundancy
-            </li>
+            <li>SPassionate about Family</li>
+            <li>Horse-riding & spending time in nature </li>
+            <li>Developing our team into star analysts</li>
           </ul>
-        </div>
+      </div>
+      <Title>Language</Title>
+      <div className="row">
+          <ul>
+            <li>Germany - Native Speaker</li>
+            <li>English - Fluent</li>
+          </ul>
       </div>
     </div>
   );

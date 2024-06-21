@@ -13,17 +13,17 @@ const SocialLinks = () => {
                 type={'linkedin'}
             />
             <SocialLinks.Link
-                url={'https://t.me/emre6askan'}
+                url={'https://t.me/Biomagic0730'}
                 type={'telegram'}
             />
             <SocialLinks.Link
                 url={'https://join.skype.com/invite/b7GMpyT187y8'}
                 type={'skype'}
             />
-            <SocialLinks.Link
+            {/* <SocialLinks.Link
                 url={'https://www.instagram.com/chademre/'}
                 type={'instagram'}
-            />
+            /> */}
         </div>
     );
 };

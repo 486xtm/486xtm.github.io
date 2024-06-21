@@ -18,6 +18,13 @@ const Skills = () => {
             <ul onMouseEnter={stopThemeChangeTimer}
                 onMouseLeave={startThemeChangeTimer}
                 onMouseOver={handleMouseEnter} >
+                <li id="rxjs">DEFI</li>
+                <li id="rxjs">Dapp Development</li>
+                <li id="rxjs">Solidity</li>
+                <li id="rxjs">SmartContract</li>
+                <li id="rxjs">NFT</li>
+                <li id="rxjs">ICOs</li>
+                <li id="rxjs">Solana</li>
                 <li id="react" >React.js</li>
                 <li id="angular">Angular.js</li>
                 <li id="vue">Vue.js</li>
@@ -26,11 +33,6 @@ const Skills = () => {
                 <li id="node">Node.js</li>
                 <li id="ngrx">Next.js</li>
                 <li id="javascript">JavaScript</li>
-                <li id="rxjs">Laravel</li>
-                <li id="rxjs">HTML</li>
-                <li id="rxjs">CSS/Sass/Less</li>
-                <li id="rxjs">Bootstrap/Tailwind CSS</li>
-                <li id="rxjs">Three.js/Web3.js</li>
             </ul>
         </div>
     );

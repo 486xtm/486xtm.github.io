@@ -21,15 +21,14 @@ const Profile = () => {
             </div>
             <div className="profile__content">
                 <div className="profile__title">
-                    Rudy Lam
+                    Rudy Tan
                 </div>
                 <TypedText
                   dataText={
                       [
-                          'Senior Fullstack Web Developer',
-                          'Frontend Development',
-                          'Backend Development',
-                          'Mobile Development'
+                          'Senior Blockchain Engineer',
+                          'BlockChain Development',
+                          'FullStack Development',
                       ]
                   }
                 />

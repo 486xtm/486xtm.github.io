@@ -4,14 +4,21 @@ import Title from "../common/Title";
 import WorkItem from "./Item";
 import WorksMenu from "./Menu";
 
-const initalState = projects.filter(p => p.type === 'react');
+// const initalState = projects.filter(p => p.type === 'react');
 
 const Works = () => {
-    const [selectedProjects, setSelectedProjects] = useState(initalState);
-    const [selectedType, setSelectedType] = useState('react');
+    const [selectedProjects, setSelectedProjects] = useState(projects);
+    const [selectedType, setSelectedType] = useState('All');
 
     function handleMenuChange(type) {
-        setSelectedProjects(projects.filter(p => p.type === type));
+        if(type == "All")
+            setSelectedProjects(projects);
+        else
+        {
+
+            console.log(type);
+            setSelectedProjects(projects.filter(p => p.type === type));
+        }
         setSelectedType(type);
     }
 
@@ -19,22 +26,23 @@ const Works = () => {
     return (
         <div className="page" id="works">
             <Title>
-                Works - Talk is cheap show me the code!
+                My Work History
             </Title>
             <WorksMenu
                 items={[
-                    'react',
-                    'angular',
-                    'vue',
-                    'js'
+                    'All',
+                    'Blockchain',
+                    'React',
+                    'Next',
+                    'Vue'
                 ]}
                 selected={selectedType}
                 clicked={handleMenuChange}
             />
-            <div className="row">
+            <div >
                 {
                     selectedProjects.map(
-                        item => <div className="column" key={item.sourceCodeLink}>
+                        (item,index) => <div className="column" key={index}>
                             <WorkItem
                                 {...item}
                             />

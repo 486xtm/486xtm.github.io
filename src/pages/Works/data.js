@@ -1,89 +1,63 @@
 export const projects = [
+
     {
-        title: 'React Portfolio',
+        title: 'Centric.com',
         images: [
-            'https://i.ibb.co/0hb1bwH/Screenshot-5.png',
-            'https://i.ibb.co/xqWqMGs/Screenshot-6.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/react-portfolio',
-        demoLink: 'https://emrebaskan.netlify.app/',
-        type: 'react'
-    },
-    {
-        title: 'React Ecommerce App With Redux',
-        images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
+            'https://i.ibb.co/SmT9sw8/1.jpg',
+            'https://i.ibb.co/pXr4Q2G/2.jpg',
+            'https://i.ibb.co/gv63DSc/3.jpg'
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/React-Ecommerce-App-with-Redux',
-        demoLink: 'http://numberless-leg.surge.sh/',
-        type: 'react'
+        demoLink: 'http://centric.com/',
+        type: 'Blockchain'
     },
     {
-        title: 'Vue Ecommerce App With Vuex',
+        title: 'Cryptocurrency Betting Site',
         images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
+            'https://i.ibb.co/2czxSny/port3.png',
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
-        demoLink: 'http://sincere-wind.surge.sh/',
-        type: 'vue'
+        sourceCodeLink: 'https://github.com/TheCoderDream/React-Ecommerce-App-with-Redux',
+        demoLink: 'https://blockchainbets.app/',
+        type: 'Blockchain'
     },
     {
-        title: 'Angular Ecommerce App With Ngrx',
+        title: 'Next Company Site',
         images: [
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm1-1.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm2-2.png',
-            'https://github.com/TheCodersDream/React-Ecommerce-App-with-Redux/raw/master/ecm4.png'
+            'https://i.ibb.co/Nr9QwtP/analogueitsolutions-com-2.png',
+            'https://i.ibb.co/xLGc2V2/analogueitsolutions-com.png',
+            'https://i.ibb.co/0rdSVD6/analogueitsolutions-com-3.png'
         ],
         sourceCodeLink: 'https://github.com/TheCoderDream/Angular-Ecommerce-App-with-NGRX',
         demoLink: 'http://delirious-coast.surge.sh/',
-        type: 'angular'
+        type: 'Next'
     },
     {
-        title: 'React Chat App With Redux And Firebase',
+        title: 'React Compnay Site',
         images: [
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_31.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_27.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_28.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_24.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_25.png'
+            'https://i.ibb.co/9hf618r/www-nactechsolution-com-1.png',
+            'https://i.ibb.co/x5xBKK9/www-nactechsolution-com-2.png',
+            'https://i.ibb.co/3RB7jBf/www-nactechsolution-com-3.png'
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
-        demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'react'
+        sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
+        demoLink: 'http://nactechsolution.com',
+        type: 'React'
     },
     {
-        title: 'Angular Chat app',
+        title: 'Next Ecommerce App',
         images: [
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_31.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_27.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_28.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_24.png',
-            'https://github.com/TheCodersDream/Angular-Chat-App/raw/master/Screenshot_25.png'
+            'https://i.ibb.co/zSMNdtd/port5.jpg',
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/React-Chat-App-With-Redux-And-Firebase',
-        demoLink: 'https://react-chat-appp.netlify.app/',
-        type: 'angular'
+        sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
+        demoLink: 'myfuturebaby.com',
+        type: 'Next'
     },
     {
-        title: 'RxJS Clone',
+        title: 'Vue Project',
         images: [
-            'https://i.ibb.co/KGsh7kM/Screenshot-7.png',
+            'https://i.ibb.co/mcSv0wy/port8.png',
         ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/rxjs-clone',
-        demoLink: 'https://stackblitz.com/edit/rxjs-clone?file=index.ts',
-        type: 'js'
+        sourceCodeLink: 'https://github.com/TheCoderDream/Vue-Ecommerce-App-with-Vuex',
+        demoLink: 'myfuturebaby.com',
+        type: 'Vue'
     },
-    {
-        title: 'Lodash Clone',
-        images: [
-            'https://www.agiliacenter.com/wp-content/uploads/2018/04/Lodash.png',
-        ],
-        sourceCodeLink: 'https://github.com/TheCoderDream/Lodash-Clone',
-        demoLink: '#',
-        type: 'js'
-    }
 ]
