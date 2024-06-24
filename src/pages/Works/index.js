@@ -11,6 +11,7 @@ const Works = () => {
     const [selectedType, setSelectedType] = useState('All');
 
     function handleMenuChange(type) {
+        setSelectedType(type);
         if(type == "All")
             setSelectedProjects(projects);
         else
@@ -19,7 +20,7 @@ const Works = () => {
             console.log(type);
             setSelectedProjects(projects.filter(p => p.type === type));
         }
-        setSelectedType(type);
+        
     }
 
 
