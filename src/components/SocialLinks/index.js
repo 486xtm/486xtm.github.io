@@ -8,10 +8,10 @@ const SocialLinks = () => {
                 url={'https://github.com/486xtm'}
                 type={'github'}
             />
-            <SocialLinks.Link
+            {/* <SocialLinks.Link
                 url={'https://www.linkedin.com/in/emrebaskan/'}
                 type={'linkedin'}
-            />
+            /> */}
             <SocialLinks.Link
                 url={'https://t.me/Biomagic0730'}
                 type={'telegram'}
