@@ -16,10 +16,10 @@ const SocialLinks = () => {
                 url={'https://t.me/Biomagic0730'}
                 type={'telegram'}
             />
-            <SocialLinks.Link
+            {/* <SocialLinks.Link
                 url={'https://join.skype.com/invite/b7GMpyT187y8'}
                 type={'skype'}
-            />
+            /> */}
             {/* <SocialLinks.Link
                 url={'https://www.instagram.com/chademre/'}
                 type={'instagram'}
